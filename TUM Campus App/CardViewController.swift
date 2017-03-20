@@ -21,6 +21,7 @@ class CardViewController: UITableViewController {
     var refresh = UIRefreshControl()
     
     func refresh(_ sender: AnyObject?) {
+        print("refresh")
         manager?.getCardItems(self)
     }
     
@@ -41,6 +42,7 @@ extension CardViewController: ImageDownloadSubscriber, DetailViewDelegate {
 extension CardViewController: TumDataReceiver {
     
     func receiveData(_ data: [DataElement]) {
+        print("receiveData")
         if cards.count <= data.count {
             for item in data {
                 if let movieItem = item as? Movie {
@@ -61,6 +63,7 @@ extension CardViewController: TumDataReceiver {
 extension CardViewController {
     
     override func viewDidLoad() {
+        print("Called viewDidLoad")
         super.viewDidLoad()
         let logo = UIImage(named: "logo-blue")
         let imageView = UIImageView(image:logo)
@@ -81,6 +84,7 @@ extension CardViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        print("Called viewWillAppear")
         super.viewWillAppear(animated)
         cards.removeAll()
         refresh(nil)

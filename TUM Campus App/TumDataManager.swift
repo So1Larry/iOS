@@ -76,6 +76,7 @@ class TumDataManager {
     }
     
     func getCardItems(_ receiver: TumDataReceiver) {
+        print("getCardItems")
         let request = BulkRequest(receiver: receiver, sorter: {
             if let item = $0 as? CardDisplayable {
                 return PersistentCardOrder.value.cards.index(of: item.cardKey).?
