@@ -41,16 +41,25 @@ extension CardViewController: ImageDownloadSubscriber, DetailViewDelegate {
 extension CardViewController: TumDataReceiver {
     
     func receiveData(_ data: [DataElement]) {
+        print(data)
+        var grades = [Grade]()
         if cards.count <= data.count {
             for item in data {
+                //FIXME
+                print("card view controller received: \n \(item)")
                 if let movieItem = item as? Movie {
                     movieItem.subscribeToImage(self)
                 }
                 if let lectureItem = item as? CalendarRow {
                     nextLecture = lectureItem
                 }
+                if let gradeItem = item as? Grade {
+                    grades.append(gradeItem)
+                    //print(gradeItem.name + " " + gradeItem.result)
+                }
             }
-            cards = data
+            
+            cards = removeOldGradeCards(data: data)
             tableView.reloadData()
         }
         refresh.endRefreshing()
@@ -139,3 +148,34 @@ extension CardViewController {
     
 }
 
+extension CardViewController {
+    
+    // Strips the received array from old grades and only leaves newest one in
+    func removeOldGradeCards(data: [DataElement]) -> [DataElement] {
+        
+     let newestGrade = data.filter({ (element: DataElement) -> Bool in
+            if (element as? Grade) != nil {
+                return true
+            }
+            return false
+        }).sorted(by: { (el1:DataElement, el2:DataElement) -> Bool in
+            if let g1 = el1 as? Grade {
+                if let g2 = el2 as? Grade {
+                    return g1.date > g2.date
+                }
+            }
+            return false
+        }).first
+        
+        let restData = data.filter({ (element: DataElement) -> Bool in
+            if (element as? Grade) != nil {
+                return false
+            }
+            return true
+        })
+        
+        
+        return restData + newestGrade
+
+    }
+}

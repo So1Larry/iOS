@@ -28,4 +28,5 @@ enum TumDataItems: String {
     case RoomMap = "RoomMap"
     case NewsCard = "NewsCard"
     case NewsCollection = "NewsCollection"
+    case GradeCard = "Grade"
 }

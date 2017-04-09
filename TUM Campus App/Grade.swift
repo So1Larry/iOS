@@ -35,3 +35,9 @@ class Grade: DataElement {
         return name
     }
 }
+
+extension Grade: CardDisplayable {
+    var cardKey: CardKey {
+        return .grade
+    }
+}

@@ -39,6 +39,7 @@ class TumDataManager {
         .LectureDetails: LectureDetailsManager(mainManager: self),
         .NewsCard: NewsManager(single: true),
         .NewsCollection: NewsManager(single: false),
+        .GradeCard: PersonalGradeManager(mainManager: self)
     ]
     
     func getToken() -> String {
@@ -77,14 +78,21 @@ class TumDataManager {
     
     func getCardItems(_ receiver: TumDataReceiver) {
         let request = BulkRequest(receiver: receiver, sorter: {
+            //FIXME
+            //print("printing request")
+            //print($0)
             if let item = $0 as? CardDisplayable {
                 return PersistentCardOrder.value.cards.index(of: item.cardKey).?
             }
             return -1
         })
         for item in cardItems {
+            
+            //FIXME
+            //print(item)
             managers[item]?.fetchData() { (data) in
                 request.receiveData(data)
+                //print(data)
             }
         }
     }

@@ -12,6 +12,9 @@ struct CardOrder {
     var cards: [CardKey]
     
     var managers: [TumDataItems] {
+        for i in cards {
+            print(i)
+        }
         return cards ==> { CardKey.managers | $0 }
     }
     

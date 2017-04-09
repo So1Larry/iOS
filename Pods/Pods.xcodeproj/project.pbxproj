@@ -315,7 +315,7 @@
 		043CA6DF17391E6524B4CCB2A43CA1A6 /* CalendarLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarLib-dummy.m"; sourceTree = "<group>"; };
 		04BBCDB773FC36E94AE038BD56FE9C22 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		079C0CA0EFA05E716FA2E10FC32EE144 /* ReducingParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReducingParameters.swift; path = Sources/Sweeft/ReducingParameters.swift; sourceTree = "<group>"; };
-		09F973D509CFC7BFEA252B14480A61CB /* SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWXMLHash.modulemap; sourceTree = "<group>"; };
+		09F973D509CFC7BFEA252B14480A61CB /* SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWXMLHash.modulemap; sourceTree = "<group>"; };
 		0AC2F4E580C735F08DDD3E5212CA9F43 /* OSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0EFA84D3D389C009244C66E8ED7CD7 /* MGCDayPlannerEKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDayPlannerEKViewController.h; path = CalendarLib/MGCDayPlannerEKViewController.h; sourceTree = "<group>"; };
 		0B2EF311EF450767AEA8992BD418ADD5 /* Pods-Campus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Campus-frameworks.sh"; sourceTree = "<group>"; };
@@ -326,9 +326,9 @@
 		0E93FD0A2D321D0102FD13B2F2828647 /* ASWeekSelectorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASWeekSelectorView-dummy.m"; sourceTree = "<group>"; };
 		1019BA289286EA6970861204F2DFD0A4 /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Sweeft/Networking/Mappable.swift; sourceTree = "<group>"; };
 		10B388837AFB3B905A6004A44689B74F /* ASSingleWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASSingleWeekView.m; path = Classes/ASSingleWeekView.m; sourceTree = "<group>"; };
-		10C84F39D4E0292B481999DF78E5C51C /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
+		10C84F39D4E0292B481999DF78E5C51C /* TKSubmitTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TKSubmitTransition.modulemap; sourceTree = "<group>"; };
 		122335B667C9F8015E21BC123B892A3E /* CalendarLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarLib.xcconfig; sourceTree = "<group>"; };
-		12541F4A15A74627732BDB5A32C0D634 /* OrderedDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OrderedDictionary.modulemap; sourceTree = "<group>"; };
+		12541F4A15A74627732BDB5A32C0D634 /* OrderedDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OrderedDictionary.modulemap; sourceTree = "<group>"; };
 		126770A6F202EADEB6F187753ECFD690 /* PZPullToRefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PZPullToRefreshView.swift; path = PZPullToRefresh/PZPullToRefreshView.swift; sourceTree = "<group>"; };
 		138A33C80B361DBF8CABDA186D10019C /* MGCTimedEventsViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCTimedEventsViewLayout.h; path = CalendarLib/MGCTimedEventsViewLayout.h; sourceTree = "<group>"; };
 		139694E679FE856BB1C59E4ABEC60219 /* MGCTimeRowsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCTimeRowsView.h; path = CalendarLib/MGCTimeRowsView.h; sourceTree = "<group>"; };
@@ -336,18 +336,18 @@
 		17679EE7C0C4C4D97C9CEFE73B950F80 /* AYSlidingPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYSlidingPickerView-umbrella.h"; sourceTree = "<group>"; };
 		185AB169398F53BF49381C3D53AC0645 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		199829EDCA01A9546DB8678ADF7BD9FC /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		1CBCDAA360B358E66538039126B0DBC6 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		1CBCDAA360B358E66538039126B0DBC6 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		1E59844B9F4197A7D30B35ABDCFAD591 /* MGCMonthPlannerViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerViewLayout.m; path = CalendarLib/MGCMonthPlannerViewLayout.m; sourceTree = "<group>"; };
 		21F1A7E0E568418939E89301734FF2C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		22F464E4B745B1B4F77688F98485FC2E /* MGCEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventView.h; path = CalendarLib/MGCEventView.h; sourceTree = "<group>"; };
 		23A54F96A944D46C10A94594E5603086 /* MGCAllDayEventsViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCAllDayEventsViewLayout.h; path = CalendarLib/MGCAllDayEventsViewLayout.h; sourceTree = "<group>"; };
 		256DEBA3CD061866E15D8DDB25C89FFD /* MGCYearCalendarMonthCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCYearCalendarMonthCell.m; path = CalendarLib/MGCYearCalendarMonthCell.m; sourceTree = "<group>"; };
-		25EF0AF69241AEFBBAE69CBCA1F1D395 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		25EF0AF69241AEFBBAE69CBCA1F1D395 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		275FB26AEB3C6CFAA112E8120BC219BE /* Auth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth.swift; path = Sources/Sweeft/Networking/Auth.swift; sourceTree = "<group>"; };
 		27A2391BB8B4FD74C8457EA1C41507A0 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		2912573D84B5487903258B94AF67938A /* ResourceBundle-CalendarLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CalendarLib-Info.plist"; sourceTree = "<group>"; };
 		2BEC2A4C430A4EB988D3CCB0EE9C5E40 /* OSCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OSCache-umbrella.h"; sourceTree = "<group>"; };
-		2C561AF273D631A0FB12752EC6D3FD41 /* CalendarLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CalendarLib.modulemap; sourceTree = "<group>"; };
+		2C561AF273D631A0FB12752EC6D3FD41 /* CalendarLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CalendarLib.modulemap; sourceTree = "<group>"; };
 		2D3A6126820F196BF6A792D5605DD9C1 /* MCSwipeTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCSwipeTableViewCell-prefix.pch"; sourceTree = "<group>"; };
 		2F186C3D57B62EC64C99DE1EF2485514 /* Pods-Campus-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Campus-resources.sh"; sourceTree = "<group>"; };
 		2FBE5F7C75AAEA1237CFA85AD3489750 /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = Sources/Sweeft/Networking/API.swift; sourceTree = "<group>"; };
@@ -362,14 +362,14 @@
 		380C3F0E1D14D1ABB0128EC61C57AF0A /* MGCMonthPlannerViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerViewLayout.h; path = CalendarLib/MGCMonthPlannerViewLayout.h; sourceTree = "<group>"; };
 		3862806192089B19C65BDD2C368FED9B /* MGCDayPlannerEKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDayPlannerEKViewController.m; path = CalendarLib/MGCDayPlannerEKViewController.m; sourceTree = "<group>"; };
 		3921E43F796685524FB9555C0B932BA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		392ED59D4A1E84323148E235052242F7 /* Pods-Campus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Campus.modulemap"; sourceTree = "<group>"; };
+		392ED59D4A1E84323148E235052242F7 /* Pods-Campus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Campus.modulemap"; sourceTree = "<group>"; };
 		393A0F321AFF9E43A64DC6A4A40EB6C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39614BE8F38E03BE9F2B20DF5E24A2F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		397AB56A21E58EBD27C69F5F7033A0C3 /* ASWeekSelectorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASWeekSelectorView.framework; path = ASWeekSelectorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		397AB56A21E58EBD27C69F5F7033A0C3 /* ASWeekSelectorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASWeekSelectorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A59D4573C1B649F7F052032D6BC4CE7 /* OSCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSCache.h; path = OSCache/OSCache.h; sourceTree = "<group>"; };
 		3A90DD3DF52D02B4740828B48393AB18 /* Assignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assignment.swift; path = Sources/Sweeft/Operators/Assignment.swift; sourceTree = "<group>"; };
 		3B07B17B695613CF5E9CECCDB420E3F9 /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCSwipeTableViewCell.m; path = MCSwipeTableViewCell/MCSwipeTableViewCell.m; sourceTree = "<group>"; };
-		3F5029459935508181EF53A85CB095FC /* TKSubmitTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKSubmitTransition.framework; path = TKSubmitTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5029459935508181EF53A85CB095FC /* TKSubmitTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKSubmitTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9EC40CCB7B4C8A3E0434344EEE58C0 /* APIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIError.swift; path = Sources/Sweeft/Networking/APIError.swift; sourceTree = "<group>"; };
 		40090128224C38417A2A8EA3193984C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		413944E42680945D6A662C23FD42038B /* MGCMonthPlannerEKViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerEKViewController.m; path = CalendarLib/MGCMonthPlannerEKViewController.m; sourceTree = "<group>"; };
@@ -391,20 +391,20 @@
 		49E3B4571D71F849DDCE6677C01DF1AC /* MGCMonthPlannerWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerWeekView.h; path = CalendarLib/MGCMonthPlannerWeekView.h; sourceTree = "<group>"; };
 		4A3EE56137F4F64C65939BC6C31F3F66 /* StatusFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusFetcher.swift; path = Sources/Sweeft/UserDefaults/StatusFetcher.swift; sourceTree = "<group>"; };
 		4D45C46B4D4986DAE4151063BAB1036F /* ArrayOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayOperators.swift; path = Sources/Sweeft/Operators/ArrayOperators.swift; sourceTree = "<group>"; };
-		4E0469E51DBCCA89F8E76A2001AD8499 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = CalendarLib/en.lproj; sourceTree = "<group>"; };
+		4E0469E51DBCCA89F8E76A2001AD8499 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = CalendarLib/en.lproj; sourceTree = "<group>"; };
 		4EFB05C80700C5E139C90FFDAE343D2B /* MGCMonthPlannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerViewController.m; path = CalendarLib/MGCMonthPlannerViewController.m; sourceTree = "<group>"; };
 		5005DBB1BBA069522CCCD9F21112EC78 /* MGCMonthPlannerBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerBackgroundView.m; path = CalendarLib/MGCMonthPlannerBackgroundView.m; sourceTree = "<group>"; };
 		5097F485890410F7F1487C127BD110AF /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		50E157715EF1EB0AB591077660A7DA76 /* ASDaySelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASDaySelectionView.h; path = Classes/ASDaySelectionView.h; sourceTree = "<group>"; };
-		51268FA29D9DB2FE05677172D8732598 /* Pods_Campus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Campus.framework; path = "Pods-Campus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51268FA29D9DB2FE05677172D8732598 /* Pods_Campus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Campus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D6688D2EA59093A0CCE81FA5D0D3B3 /* MCSwipeTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCSwipeTableViewCell-dummy.m"; sourceTree = "<group>"; };
 		544374DD050BE033A614F782BFE2D775 /* OAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth.swift; path = Sources/Sweeft/Networking/OAuth.swift; sourceTree = "<group>"; };
-		56E696C609764C864860D4B7A3255C8B /* ASWeekSelectorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ASWeekSelectorView.modulemap; sourceTree = "<group>"; };
+		56E696C609764C864860D4B7A3255C8B /* ASWeekSelectorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ASWeekSelectorView.modulemap; sourceTree = "<group>"; };
 		595DDBFC8832EF2A54F8235664E4CAD2 /* Mutlithreading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mutlithreading.swift; path = Sources/Sweeft/Mutlithreading.swift; sourceTree = "<group>"; };
 		5BD171070445D089C125C54D0C17A8D4 /* MGCEventKitSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventKitSupport.m; path = CalendarLib/MGCEventKitSupport.m; sourceTree = "<group>"; };
 		5C339DA2DF661E04BE2105A8958132F1 /* MGCStandardEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCStandardEventView.h; path = CalendarLib/MGCStandardEventView.h; sourceTree = "<group>"; };
 		5DB0FE183D9D093DDEAFEA6D2452FB8B /* MGCDayPlannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDayPlannerView.h; path = CalendarLib/MGCDayPlannerView.h; sourceTree = "<group>"; };
-		5EA6053782AFC252D67ABCE8EB6FFD18 /* AYSlidingPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AYSlidingPickerView.framework; path = AYSlidingPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA6053782AFC252D67ABCE8EB6FFD18 /* AYSlidingPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYSlidingPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC697B9C75B19BC82918907E4EACDE8 /* ASWeekSelectorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASWeekSelectorView-umbrella.h"; sourceTree = "<group>"; };
 		604AAB955CBBC741D1575FDDC4A8E7EA /* PromiseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromiseHandler.swift; path = Sources/Sweeft/Promises/PromiseHandler.swift; sourceTree = "<group>"; };
 		6090774FCF1B5E60590380D68962DFB0 /* SWXMLHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWXMLHash.xcconfig; sourceTree = "<group>"; };
@@ -414,7 +414,7 @@
 		64125F82FE056D62BBB102CE5C93F6DC /* Sweeft.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sweeft.xcconfig; sourceTree = "<group>"; };
 		651F07646A907696F575849674CE78B7 /* MGCMonthPlannerWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerWeekView.m; path = CalendarLib/MGCMonthPlannerWeekView.m; sourceTree = "<group>"; };
 		675B13F7A7D4E51DFD244140E5E06DD6 /* MGCMonthPlannerViewDayCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCMonthPlannerViewDayCell.m; path = CalendarLib/MGCMonthPlannerViewDayCell.m; sourceTree = "<group>"; };
-		68A95D96E61E8530887A600B49C08E16 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A95D96E61E8530887A600B49C08E16 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6907F4DCD3C1BAB869A8F90AC94766E4 /* NSCalendar+MGCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+MGCAdditions.h"; path = "CalendarLib/NSCalendar+MGCAdditions.h"; sourceTree = "<group>"; };
 		6AB86963241ED8BEA94B53F3A47125E6 /* PZPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PZPullToRefresh-dummy.m"; sourceTree = "<group>"; };
 		6E1A248BB05A61FC70148D89F6D8666F /* ASSingleWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASSingleWeekView.h; path = Classes/ASSingleWeekView.h; sourceTree = "<group>"; };
@@ -448,23 +448,23 @@
 		9105C44FEE0A23A63B6866C03891F6FD /* MGCReusableObjectQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCReusableObjectQueue.h; path = CalendarLib/MGCReusableObjectQueue.h; sourceTree = "<group>"; };
 		916021941F83F216D3A0FF1394C3B687 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		92B0A5408237BCDC57F5B1FA7CC58252 /* NSCalendar+MGCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+MGCAdditions.m"; path = "CalendarLib/NSCalendar+MGCAdditions.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		942330DE729B72E41E6396BAF0E7CE91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95819E0BF69E6CEC927C0912E3074F2B /* MGCDayPlannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDayPlannerView.m; path = CalendarLib/MGCDayPlannerView.m; sourceTree = "<group>"; };
-		967D6C939251D3C0A7B41F0A8E1E6603 /* AYSlidingPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AYSlidingPickerView.modulemap; sourceTree = "<group>"; };
+		967D6C939251D3C0A7B41F0A8E1E6603 /* AYSlidingPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AYSlidingPickerView.modulemap; sourceTree = "<group>"; };
 		977E263EBB7CAD99CCCBAE8A3E03E05D /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		981EF50535D2352276EB392066EB1A7E /* MGCEventCellLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventCellLayoutAttributes.m; path = CalendarLib/MGCEventCellLayoutAttributes.m; sourceTree = "<group>"; };
-		9832214F0F45F312DE903A18F758500A /* PZPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PZPullToRefresh.framework; path = PZPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9974338A91F4AA2C4EAB965B1DCA4667 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = CalendarLib/fr.lproj; sourceTree = "<group>"; };
+		9832214F0F45F312DE903A18F758500A /* PZPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PZPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9974338A91F4AA2C4EAB965B1DCA4667 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = CalendarLib/fr.lproj; sourceTree = "<group>"; };
 		9AD77568323392DA92FD01292786EBE3 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		9CAA004B225CC628E7156AE9C9335737 /* OSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OSCache.framework; path = OSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CAA004B225CC628E7156AE9C9335737 /* OSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8AE242760FF6AE81B8BF1ACA39CEAD /* CGRectEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = SubmitTransition/Classes/CGRectEx.swift; sourceTree = "<group>"; };
 		9ED1CB92293E0B34714CB2DEEBA5D6B1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		9F2F9A82E563A964A395F2EF84F2C8A8 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = "Sources/Sweeft/Observer Pattern/Observable.swift"; sourceTree = "<group>"; };
 		9F78AD3C85C127E08325EFA5700EE779 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		A1401295006DA5BCAB1754553C624A3B /* MGCDayPlannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDayPlannerViewController.m; path = CalendarLib/MGCDayPlannerViewController.m; sourceTree = "<group>"; };
 		A1B5E7642E133F53725FBFAE0AB3E348 /* SWXMLHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-prefix.pch"; sourceTree = "<group>"; };
-		A53017F21F169A233CEDB6F6735AAFC0 /* MCSwipeTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MCSwipeTableViewCell.framework; path = MCSwipeTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53017F21F169A233CEDB6F6735AAFC0 /* MCSwipeTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MCSwipeTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5312AE7B2EC6A6A806FB479792EB514 /* MCSwipeTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCSwipeTableViewCell-umbrella.h"; sourceTree = "<group>"; };
 		A77BFF69DC922152DEABCA65D8E089DE /* OSCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OSCache.xcconfig; sourceTree = "<group>"; };
 		A7CBFEECAD520E4D10954B12FF3C2F9A /* MGCMonthPlannerViewDayCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerViewDayCell.h; path = CalendarLib/MGCMonthPlannerViewDayCell.h; sourceTree = "<group>"; };
@@ -479,15 +479,15 @@
 		ACFEAE491467766528E3832445FC9819 /* ReducingParametersOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReducingParametersOperators.swift; path = Sources/Sweeft/Operators/ReducingParametersOperators.swift; sourceTree = "<group>"; };
 		AD647AAB19976854A74EC41C51BA1DDA /* ObjectStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectStatus.swift; path = Sources/Sweeft/UserDefaults/ObjectStatus.swift; sourceTree = "<group>"; };
 		ADF59750E14B8CE50D21B3F34CBDC637 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		AF2C137CAD2389BA84551786660AC41E /* MCSwipeTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MCSwipeTableViewCell.modulemap; sourceTree = "<group>"; };
-		AFD03097D2D2B5939885B5B68FC73528 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2C137CAD2389BA84551786660AC41E /* MCSwipeTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MCSwipeTableViewCell.modulemap; sourceTree = "<group>"; };
+		AFD03097D2D2B5939885B5B68FC73528 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B068AE8DFD1543AC93BCCEE21E5F0F43 /* MGCAllDayEventsViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCAllDayEventsViewLayout.m; path = CalendarLib/MGCAllDayEventsViewLayout.m; sourceTree = "<group>"; };
 		B13357CD4786ECC92FF655F548205DA2 /* TKSubmitTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSubmitTransition-umbrella.h"; sourceTree = "<group>"; };
 		B1DBBD788C437E59ECB5DC38FA080853 /* TKSubmitTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSubmitTransition.xcconfig; sourceTree = "<group>"; };
 		B30F78CEA2BA9F79D92D63B21AFE2347 /* MGCDateRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDateRange.h; path = CalendarLib/MGCDateRange.h; sourceTree = "<group>"; };
 		B3507F5E3F522BBF82BCEC7EF39D4724 /* Other.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Other.swift; path = Sources/Sweeft/Other.swift; sourceTree = "<group>"; };
 		B52FAD852F2337C696909CEABE371C82 /* Pods-Campus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Campus-acknowledgements.plist"; sourceTree = "<group>"; };
-		B566678F367A7BFD5979465A2833C955 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OrderedDictionary.framework; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B566678F367A7BFD5979465A2833C955 /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DC6E22E9258409FFB6F0BC64F75202 /* MGCStandardEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCStandardEventView.m; path = CalendarLib/MGCStandardEventView.m; sourceTree = "<group>"; };
 		B952556A9EB5A196775D077149F1155E /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
 		BAB7247EF4D809431BE2DF320326EB45 /* MGCEventCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventCell.h; path = CalendarLib/MGCEventCell.h; sourceTree = "<group>"; };
@@ -496,20 +496,20 @@
 		BBBCA2CCEB6380AD90F77C295CAC931B /* SWXMLHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-umbrella.h"; sourceTree = "<group>"; };
 		BD39ACE01A5AD8FAED33F86C58AFB9EC /* SWXMLHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWXMLHash-dummy.m"; sourceTree = "<group>"; };
 		BD44202513A30E55913F6DD754888E36 /* MGCDayColumnCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCDayColumnCell.h; path = CalendarLib/MGCDayColumnCell.h; sourceTree = "<group>"; };
-		C022504326D191477DAC56C72803FEC6 /* OSCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OSCache.modulemap; sourceTree = "<group>"; };
+		C022504326D191477DAC56C72803FEC6 /* OSCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OSCache.modulemap; sourceTree = "<group>"; };
 		C06A82CA2E224D0F249893D2A1F45A7E /* MGCEventsRowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventsRowView.m; path = CalendarLib/MGCEventsRowView.m; sourceTree = "<group>"; };
 		C168889E76E2D835FF50DFF671804205 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		C20236629AEC27411FE5DE1A5294FC39 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		C232A76EDBB3700D6DBF4F38A7E0A1CB /* CalendarLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CalendarLib.bundle; path = CalendarLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C232A76EDBB3700D6DBF4F38A7E0A1CB /* CalendarLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C236080DD7D1F7E24E31778DA072C8FE /* CalendarLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarLib-prefix.pch"; sourceTree = "<group>"; };
 		C40D17C3636FD545FC937EF4CD1AEE19 /* MGCMonthPlannerEKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCMonthPlannerEKViewController.h; path = CalendarLib/MGCMonthPlannerEKViewController.h; sourceTree = "<group>"; };
 		C51D8C6C6121DE20B0F22F2E2A8F5326 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		C674B631AFDB05A5F524212EEFA2C30D /* MGCEventCellLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventCellLayoutAttributes.h; path = CalendarLib/MGCEventCellLayoutAttributes.h; sourceTree = "<group>"; };
-		C8CA17CBCA1F2408EFB5CE031BCBA002 /* CalendarLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarLib.framework; path = CalendarLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CA17CBCA1F2408EFB5CE031BCBA002 /* CalendarLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalendarLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB18CEF800138ED43933F24E0B204B87 /* MGCYearCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCYearCalendarView.m; path = CalendarLib/MGCYearCalendarView.m; sourceTree = "<group>"; };
 		CF086186CABB8AD9B96FB4AC74F29858 /* Pods-Campus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Campus-dummy.m"; sourceTree = "<group>"; };
 		CF18A6F8D3059F59FD6AD05344AF6292 /* AYSlidingPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYSlidingPickerView-dummy.m"; sourceTree = "<group>"; };
-		CF4B33C39D24140D866DCA43B5F44815 /* PZPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PZPullToRefresh.modulemap; sourceTree = "<group>"; };
+		CF4B33C39D24140D866DCA43B5F44815 /* PZPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PZPullToRefresh.modulemap; sourceTree = "<group>"; };
 		D2484B3775128537FA7C6E57C34946FA /* ASWeekSelectorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASWeekSelectorView.m; path = Classes/ASWeekSelectorView.m; sourceTree = "<group>"; };
 		D2D701C5BA9B6A6B8C103CDB5C1B02F2 /* SWXMLHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = Source/SWXMLHash.swift; sourceTree = "<group>"; };
 		D4CB36510C444B1AD603735DBA330377 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
@@ -522,19 +522,19 @@
 		D835EA7E2CEE0968703DE0983C2412EF /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		D9859C35B2B366AC37EB0E1DDEEB7007 /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URL.swift; path = Sources/Sweeft/Extensions/URL.swift; sourceTree = "<group>"; };
 		D9C2A1BBD182B4DD3C5740C55F0A15BD /* MGCDateRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCDateRange.m; path = CalendarLib/MGCDateRange.m; sourceTree = "<group>"; };
-		DA840809CA09EBAD6A82F2F52BA5C01E /* Sweeft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Sweeft.modulemap; sourceTree = "<group>"; };
+		DA840809CA09EBAD6A82F2F52BA5C01E /* Sweeft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Sweeft.modulemap; sourceTree = "<group>"; };
 		DBF394DF83D5DCA0DEB89A847F437158 /* MGCReusableObjectQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCReusableObjectQueue.m; path = CalendarLib/MGCReusableObjectQueue.m; sourceTree = "<group>"; };
 		DCFBF4C0E9278D3B2797019FA5BBD523 /* Status.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Status.swift; path = Sources/Sweeft/UserDefaults/Status.swift; sourceTree = "<group>"; };
 		DDC5AD19CF332A75FBB9EC94798355D0 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = Sources/Sweeft/Extensions/Dictionary.swift; sourceTree = "<group>"; };
 		DE821D1A9F209B1F68AFF5351157573A /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		DE839D910517A3E5F7F22112DADD84A6 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		E186E16BB63EDC20E1D613DDB417BA4B /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		E230D7B14B2D680388F8E9AD236B8BFF /* Sweeft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sweeft.framework; path = Sweeft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E230D7B14B2D680388F8E9AD236B8BFF /* Sweeft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sweeft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D77F8CAF919E33A2338B3797C2C8EA /* OrderedDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderedDictionary.xcconfig; sourceTree = "<group>"; };
 		E666C63B9C718E9D728EA8CD4A98ABE5 /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = SubmitTransition/Classes/SpinerLayer.swift; sourceTree = "<group>"; };
 		E7E81A5890AAD6E829750A107CA03E25 /* PZPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
 		E8416360F9186CFB4D15E1ACEBA0B7CD /* MGCYearCalendarMonthHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCYearCalendarMonthHeaderView.m; path = CalendarLib/MGCYearCalendarMonthHeaderView.m; sourceTree = "<group>"; };
-		E8710A4EF42A719DAD4CE57C784E1CFC /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8710A4EF42A719DAD4CE57C784E1CFC /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E56A806C9C793062E36C0EE1AC2C93 /* MGCEventKitSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGCEventKitSupport.h; path = CalendarLib/MGCEventKitSupport.h; sourceTree = "<group>"; };
 		E9F0E57079AD1DF748A6FD63820FB7CF /* MGCEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGCEventView.m; path = CalendarLib/MGCEventView.m; sourceTree = "<group>"; };
 		EA6022EC085FA86C9A62E13574084C10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -706,7 +706,6 @@
 				ED5160501CD07F01D79212E44855CC6C /* OSCache.m */,
 				C8CDB41C992E91C49C3CEB76CD83D750 /* Support Files */,
 			);
-			name = OSCache;
 			path = OSCache;
 			sourceTree = "<group>";
 		};
@@ -753,7 +752,6 @@
 				DE839D910517A3E5F7F22112DADD84A6 /* Validation.swift */,
 				9AA5781E96CC7AA7F9E053465AA69F99 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -764,7 +762,6 @@
 				3B07B17B695613CF5E9CECCDB420E3F9 /* MCSwipeTableViewCell.m */,
 				6AE15B119595E7CA402F63521914EE85 /* Support Files */,
 			);
-			name = MCSwipeTableViewCell;
 			path = MCSwipeTableViewCell;
 			sourceTree = "<group>";
 		};
@@ -815,7 +812,6 @@
 				D2484B3775128537FA7C6E57C34946FA /* ASWeekSelectorView.m */,
 				C5E5A043D47E9792F7184A09B79A5D56 /* Support Files */,
 			);
-			name = ASWeekSelectorView;
 			path = ASWeekSelectorView;
 			sourceTree = "<group>";
 		};
@@ -840,7 +836,6 @@
 				D4CB36510C444B1AD603735DBA330377 /* SWXMLHash+TypeConversion.swift */,
 				CA58320C25F058EEB790C94A74560BA1 /* Support Files */,
 			);
-			name = SWXMLHash;
 			path = SWXMLHash;
 			sourceTree = "<group>";
 		};
@@ -890,7 +885,6 @@
 				47DCBC71421782BFC6F73A4A86AF4548 /* OrderedDictionary.m */,
 				5C2153FB6F66E06A1362AB2CCEB08866 /* Support Files */,
 			);
-			name = OrderedDictionary;
 			path = OrderedDictionary;
 			sourceTree = "<group>";
 		};
@@ -900,7 +894,6 @@
 				126770A6F202EADEB6F187753ECFD690 /* PZPullToRefreshView.swift */,
 				E794D69A628469492053EE9CC1BF850D /* Support Files */,
 			);
-			name = PZPullToRefresh;
 			path = PZPullToRefresh;
 			sourceTree = "<group>";
 		};
@@ -913,7 +906,6 @@
 				8E62E152BA40CD3BCC2C157C534CA42E /* TransitionSubmitButton.swift */,
 				BADADE678E7DBBC4B069C00161710BE3 /* Support Files */,
 			);
-			name = TKSubmitTransition;
 			path = TKSubmitTransition;
 			sourceTree = "<group>";
 		};
@@ -924,7 +916,6 @@
 				3456F246F5250CA2DE960C4912DC3D35 /* AYSlidingPickerView.m */,
 				CBB9108DEA5308D39A06CFF9A63A47D5 /* Support Files */,
 			);
-			name = AYSlidingPickerView;
 			path = AYSlidingPickerView;
 			sourceTree = "<group>";
 		};
@@ -963,7 +954,6 @@
 				04BBCDB773FC36E94AE038BD56FE9C22 /* SwiftyJSON.swift */,
 				4CE6AA52A505776905CB0E63801B9DB2 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -1099,7 +1089,6 @@
 				A9D022093E3C4465266A36D663A32021 /* Resources */,
 				9A156976D19D5E04E315535E6E7161FC /* Support Files */,
 			);
-			name = CalendarLib;
 			path = CalendarLib;
 			sourceTree = "<group>";
 		};
@@ -1190,7 +1179,6 @@
 				808D9CA67AB6F8279644DF3A5F1772DE /* ValueComparable.swift */,
 				5379DAA54D206FD8BB917CB1579C1AD5 /* Support Files */,
 			);
-			name = Sweeft;
 			path = Sweeft;
 			sourceTree = "<group>";
 		};
@@ -2092,7 +2080,7 @@
 				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2174,7 +2162,7 @@
 				PRODUCT_NAME = PZPullToRefresh;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2206,7 +2194,7 @@
 				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2239,7 +2227,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2271,7 +2259,7 @@
 				PRODUCT_NAME = TKSubmitTransition;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2303,7 +2291,7 @@
 				PRODUCT_NAME = SWXMLHash;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2336,7 +2324,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2378,6 +2366,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0.1;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2441,7 +2430,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2506,7 +2495,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2527,6 +2516,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ASWeekSelectorView/ASWeekSelectorView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ASWeekSelectorView/Info.plist";
@@ -2655,6 +2645,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ASWeekSelectorView/ASWeekSelectorView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ASWeekSelectorView/Info.plist";
@@ -2698,7 +2689,7 @@
 				PRODUCT_NAME = Sweeft;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2745,6 +2736,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 3.0.1;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -2775,7 +2767,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2904,7 +2896,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.2;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
