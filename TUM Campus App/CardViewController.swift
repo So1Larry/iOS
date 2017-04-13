@@ -41,21 +41,14 @@ extension CardViewController: ImageDownloadSubscriber, DetailViewDelegate {
 extension CardViewController: TumDataReceiver {
     
     func receiveData(_ data: [DataElement]) {
-        print(data)
-        var grades = [Grade]()
+        
         if cards.count <= data.count {
             for item in data {
-                //FIXME
-                print("card view controller received: \n \(item)")
                 if let movieItem = item as? Movie {
                     movieItem.subscribeToImage(self)
                 }
                 if let lectureItem = item as? CalendarRow {
                     nextLecture = lectureItem
-                }
-                if let gradeItem = item as? Grade {
-                    grades.append(gradeItem)
-                    //print(gradeItem.name + " " + gradeItem.result)
                 }
             }
             
@@ -153,7 +146,7 @@ extension CardViewController {
     // Strips the received array from old grades and only leaves newest one in
     func removeOldGradeCards(data: [DataElement]) -> [DataElement] {
         
-     let newestGrade = data.filter({ (element: DataElement) -> Bool in
+        let newestGrade = data.filter({ (element: DataElement) -> Bool in
             if (element as? Grade) != nil {
                 return true
             }
@@ -173,7 +166,6 @@ extension CardViewController {
             }
             return true
         })
-        
         
         return restData + newestGrade
 
