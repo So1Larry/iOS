@@ -113,6 +113,7 @@
 		2297958E1EAD711B004A7F9B /* TumOPACApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297958D1EAD711B004A7F9B /* TumOPACApi.swift */; };
 		22A95F1A1EC5E70B00C79420 /* FSMPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A95F191EC5E70B00C79420 /* FSMPIManager.swift */; };
 		22DD32371EC5E7FF006DC48A /* FachschaftRSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD32361EC5E7FF006DC48A /* FachschaftRSS.swift */; };
+		22DD32391EC5EC4C006DC48A /* FachschaftNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD32381EC5EC4C006DC48A /* FachschaftNews.swift */; };
 		22F4B6B21EA802350086D49A /* BookRentalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F4B6B11EA802350086D49A /* BookRentalManager.swift */; };
 		22F4B6B41EA802960086D49A /* BookRental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F4B6B31EA802960086D49A /* BookRental.swift */; };
 		22F4B6B61EA80E3C0086D49A /* BookRentalsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F4B6B51EA80E3C0086D49A /* BookRentalsCard.swift */; };
@@ -291,6 +292,7 @@
 		2297958D1EAD711B004A7F9B /* TumOPACApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumOPACApi.swift; sourceTree = "<group>"; };
 		22A95F191EC5E70B00C79420 /* FSMPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSMPIManager.swift; sourceTree = "<group>"; };
 		22DD32361EC5E7FF006DC48A /* FachschaftRSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FachschaftRSS.swift; sourceTree = "<group>"; };
+		22DD32381EC5EC4C006DC48A /* FachschaftNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FachschaftNews.swift; sourceTree = "<group>"; };
 		22F4B6B11EA802350086D49A /* BookRentalManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookRentalManager.swift; sourceTree = "<group>"; };
 		22F4B6B31EA802960086D49A /* BookRental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookRental.swift; sourceTree = "<group>"; };
 		22F4B6B51EA80E3C0086D49A /* BookRentalsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookRentalsCard.swift; sourceTree = "<group>"; };
@@ -702,6 +704,7 @@
 				0EF4CEE91D4154C5001649F1 /* NewsCardCell.swift */,
 				22F4B6B51EA80E3C0086D49A /* BookRentalsCard.swift */,
 				0EEBD10F1E058F3A00798B41 /* EmptyCardCell.swift */,
+				22DD32381EC5EC4C006DC48A /* FachschaftNews.swift */,
 			);
 			name = Cards;
 			sourceTree = "<group>";
@@ -1203,6 +1206,7 @@
 				0EB161881C1A0EB2001A08FC /* LectureTableViewCell.swift in Sources */,
 				301195F01E464FBD0012B133 /* GradeTableViewCell.swift in Sources */,
 				0E1073B11C1A4BE2004C93CF /* Room.swift in Sources */,
+				22DD32391EC5EC4C006DC48A /* FachschaftNews.swift in Sources */,
 				0EF4CEF01D416751001649F1 /* DetailView.swift in Sources */,
 				0E424F691BE17ED700B5DFCB /* SearchViewController.swift in Sources */,
 				22F4B6B61EA80E3C0086D49A /* BookRentalsCard.swift in Sources */,
