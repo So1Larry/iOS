@@ -11,12 +11,16 @@ import Foundation
 
 class FachschaftRSS: DataElement {
     let title: String
-    let details: String
+    let link: String
+    let date: String
+    let content: String
 
     
-    init(title: String, details: String) {
+    init(title: String, link: String, date: String, content: String) {
         self.title = title
-        self.details = details
+        self.link = link
+        self.date = date
+        self.content = content
     }
     
     func getCellIdentifier() -> String {
