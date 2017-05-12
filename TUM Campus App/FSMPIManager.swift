@@ -12,6 +12,8 @@ import SWXMLHash
 
 class FSMPIManager: Manager {
     
+    static var faschaftsNews = [DataElement]()
+    
     var main: TumDataManager?
     var requiresLogin: Bool {
         return false
@@ -25,7 +27,7 @@ class FSMPIManager: Manager {
         Alamofire.request(getURL()).responseString() { (response) in
             if let data = response.result.value {
                 let parsedXML = SWXMLHash.parse(data)
-                
+                print(parsedXML)
             }
         }
     }
